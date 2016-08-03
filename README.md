@@ -3,9 +3,9 @@
 This package checks what the latest pre-release (beta) version of Atom is, and
 notify the user if the latest beta is ahead of the version currently being used.
 
-![Atom Beta Notifier: all is good](screenshot-info.png)
+![Atom Beta Notifier: all is good](https://github.com/quasipedia/atom-beta-notifier/raw/master/screenshots/do-update.png)
 
-![Atom Beta Notifier: you are missing out!](screenshot-error.png)
+![Atom Beta Notifier: you are missing out!](https://github.com/quasipedia/atom-beta-notifier/raw/master/screenshots/all-is-good.png)
 
 
 ## Under the hood
