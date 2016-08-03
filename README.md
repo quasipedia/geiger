@@ -4,7 +4,9 @@ This package checks GitHub to verify what is the latest pre-release
 (beta) version of atom, notifying the user if the latest beta is ahead
 of the version of atom currently being used.
 
-![Atom Beta Notifier in action](screenshot.png)
+![Atom Beta Notifier in action](screenshot-info.png)
+
+![Atom Beta Notifier in action](screenshot-error.png)
 
 
 ## What it does
