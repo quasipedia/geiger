@@ -22,7 +22,7 @@ GitHub.
   (regardless of a newer beta being available or not)
 - All other cases trigger a simple info
 
-The verion number of the latest beta is a clickable link to the download page.
+The version number of the latest beta is a clickable link to the download page.
 
 
 ## Triggers
