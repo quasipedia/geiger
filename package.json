@@ -1,0 +1,24 @@
+{
+  "name": "atom-beta-notifier",
+  "main": "./lib/atom-beta-notifier",
+  "version": "0.0.0",
+  "description": "Notify the release of new beta versions of Atom",
+  "keywords": [
+    "beta",
+    "pre-release",
+    "notifications",
+    "bleeding-edge",
+    "checking"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-beta-notifier:check"
+  },
+  "repository": "https://github.com/atom/atom-beta-notifier",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "semver": "latest"
+  }
+}

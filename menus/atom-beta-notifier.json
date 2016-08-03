@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editVor": [
+      {
+        "label": "Check for a new beta version of Atom",
+        "command": "atom-beta-notifier:check"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Atom Beta Notifier",
+          "submenu": [
+            {
+              "label": "Check for new version",
+              "command": "atom-beta-notifier:check"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
