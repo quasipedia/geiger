@@ -13,7 +13,7 @@
   "activationCommands": {
     "atom-workspace": "atom-beta-notifier:check"
   },
-  "repository": "https://github.com/atom/atom-beta-notifier",
+  "repository": "https://github.com/quasipedia/atom-beta-notifier",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
