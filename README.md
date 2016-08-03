@@ -46,3 +46,6 @@ manually perform the check via command palette (search for `beta check`) or the
 ## To do
 - [ ] Support links to other packages types (`deb`, for example)
 - [ ] Write tests
+- [ ] Make startup test optional from configuration
+- [ ] Have a minimum interval for startup checks (so if one restart Atom constantly there isn't always a notification to dismiss)
+- [ ] Implement smart logic for "dismissability" (errors need manual dismiss, info fade on their own)
