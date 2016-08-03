@@ -1,7 +1,7 @@
 {
   "name": "atom-beta-notifier",
   "main": "./lib/atom-beta-notifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Notify the release of new beta versions of Atom",
   "keywords": [
     "beta",
