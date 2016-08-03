@@ -8,17 +8,15 @@
     "pre-release",
     "notifications",
     "bleeding-edge",
-    "checking"
+    "checking",
+    "linux"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-beta-notifier:check"
-  },
   "repository": "https://github.com/quasipedia/atom-beta-notifier",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "semver": "latest"
+    "semver": "^5.3.0"
   }
 }
