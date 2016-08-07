@@ -1,5 +1,5 @@
 {
-  "name": "atom-beta-notifier",
+  "name": "geiger",
   "main": "./lib/geiger",
   "version": "1.0.1",
   "description": "A platform-independend Atom new releases notifier",
