@@ -1,17 +1,16 @@
 {
   "name": "atom-beta-notifier",
-  "main": "./lib/atom-beta-notifier",
+  "main": "./lib/geiger",
   "version": "1.0.1",
-  "description": "Notify the release of new beta versions of Atom",
+  "description": "A platform-independend Atom new releases notifier",
   "keywords": [
     "beta",
-    "pre-release",
+    "new-versions",
     "notifications",
     "bleeding-edge",
-    "checking",
     "linux"
   ],
-  "repository": "https://github.com/quasipedia/atom-beta-notifier",
+  "repository": "https://github.com/quasipedia/geiger",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

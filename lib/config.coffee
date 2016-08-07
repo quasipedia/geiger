@@ -1,38 +1,32 @@
 module.exports =
-  config:
-    intialCheck:
-      title: 'Boot check'
+  defaults:
+    bootCheck:
+      title: 'Automatic check'
       type: 'object'
       properties:
         perform:
-          title: 'Check for new releases at boot'
+          title: 'Check for new releases when Atom is launched'
           type: 'boolean'
           default: 'true'
         throttle:
-          title: 'Do not perform a new boot check before X minutes'
+          title: 'Cooldown time'
+          description: 'Prevents new boot checks if the last has been performed less than X minutes ago'
           type: 'integer'
           default: 60
-          min: 0
-          max: 1440
+          minimum: 0
+          maximum: 1440
       order: 0
-    monitoredReleases:
-      title: 'Releases'
-      description: 'Types of realeases'
+    beta:
+      title: 'Beta channel'
       type: 'object'
       properties:
-        stable:
-          title: 'Check for newer stable releases'
+        include:
+          title: 'Also consider beta releases as "newer version"'
           type: 'boolean'
-          default: 'true'
-          order: 0
-        notifyOutdated:
-          title: 'Check for newer beta releases'
-          type: 'boolean'
-          default: 'true'
-          order: 1
+          default: false
       order: 1
     upToDate:
-      title: 'When the system is up-to-date'
+      title: 'When Atom is up-to-date'
       type: 'object'
       properties:
         notify:
@@ -40,7 +34,7 @@ module.exports =
           type: 'boolean'
           default: 'true'
           order: 0
-        dismissable:
+        dismiss:
           title: 'Require manual closing of notification'
           type: 'boolean'
           default: 'false'
@@ -50,7 +44,12 @@ module.exports =
       title: 'When there are new releases'
       type: 'object'
       properties:
-        dismissable:
+        notify:
+          title: 'Show a notification'
+          type: 'boolean'
+          default: 'true'
+          order: 0
+        dismiss:
           title: 'Require manual closing of notification'
           type: 'boolean'
           default: 'true'

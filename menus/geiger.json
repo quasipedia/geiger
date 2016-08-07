@@ -3,7 +3,7 @@
     "atom-text-editVor": [
       {
         "label": "Check for a new beta version of Atom",
-        "command": "atom-beta-notifier:check"
+        "command": "geiger:check"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "Atom Beta Notifier",
+          "label": "Geiger",
           "submenu": [
             {
               "label": "Check for new version",
-              "command": "atom-beta-notifier:check"
+              "command": "geiger:check"
             }
           ]
         }

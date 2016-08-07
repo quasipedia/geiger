@@ -1,6 +1,6 @@
 'use babel';
 
-import AtomBetaNotifier from '../lib/atom-beta-notifier';
+import AtomBetaNotifier from '../lib/geiger';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -12,10 +12,10 @@ describe('AtomBetaNotifier', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('atom-beta-notifier');
+    activationPromise = atom.packages.activatePackage('geiger');
   });
 
-  describe('when the atom-beta-notifier:check event is triggered', () => {
+  describe('when the geiger:check event is triggered', () => {
 
     // it('hides and shows the view', () => {
     //   // This test shows you an integration test testing at the view level.
@@ -26,11 +26,11 @@ describe('AtomBetaNotifier', () => {
     //   // workspaceElement to the DOM are generally slower than those off DOM.
     //   jasmine.attachToDOM(workspaceElement);
     //
-    //   expect(workspaceElement.querySelector('.atom-beta-notifier')).not.toExist();
+    //   expect(workspaceElement.querySelector('.geiger')).not.toExist();
     //
     //   // This is an activation event, triggering it causes the package to be
     //   // activated.
-    //   atom.commands.dispatch(workspaceElement, 'atom-beta-notifier:check');
+    //   atom.commands.dispatch(workspaceElement, 'geiger:check');
     //
     //   waitsForPromise(() => {
     //     return activationPromise;
@@ -38,9 +38,9 @@ describe('AtomBetaNotifier', () => {
     //
     //   runs(() => {
     //     // Now we can test for view visibility
-    //     let atomBetaNotifierElement = workspaceElement.querySelector('.atom-beta-notifier');
+    //     let atomBetaNotifierElement = workspaceElement.querySelector('.geiger');
     //     expect(atomBetaNotifierElement).toBeVisible();
-    //     atom.commands.dispatch(workspaceElement, 'atom-beta-notifier:toggle');
+    //     atom.commands.dispatch(workspaceElement, 'geiger:toggle');
     //     expect(atomBetaNotifierElement).not.toBeVisible();
     //   });
     // });
