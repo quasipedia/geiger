@@ -11,3 +11,6 @@
   * choose if a boot check should be performed or not
   * throttle said boot check
 * The package has been renamed to _geiger_
+
+## 2.0.1 - Fix serialization
+* Fix a bug that crashed the package at first boot
