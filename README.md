@@ -1,5 +1,5 @@
 # Geiger
-**(previously known as 'geiger')**
+**(previously known as 'atom-beta-notifier')**
 
 A platform-independend (Linux, Windows, etc...) package for being notified
 about newer-than-currently-in-use versions of Atom.
