@@ -14,3 +14,6 @@
 
 ## 2.0.1 - Fix serialization
 * Fix a bug that crashed the package at first boot
+
+## 2.0.2 - Improve documentation
+* Fix typos as reported online by other users
