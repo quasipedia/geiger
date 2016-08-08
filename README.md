@@ -20,8 +20,8 @@ to your workflow.
 
 ## Under the hood
 
-This package downloads the relase information about Atom via the **GitHub API**.
-( This is what it makes it platform-independend, BTW).
+This package downloads the relase information about Atom via the **GitHub API**
+(this is what it makes it platform-independend, BTW).
 
 Based on your configuration settings the package may then notify you of newer
 stable or beta versions, or even just informing you are fully up-to-date.
@@ -29,7 +29,7 @@ stable or beta versions, or even just informing you are fully up-to-date.
 
 ## Usage
 
-The package check for new version of Atom at launch, but it is possible to
+The package checks for new version of Atom at launch, but it is possible to
 manually perform the check via command palette (search for `geiger`) or the
 `Package` menu directly.
 
@@ -50,9 +50,10 @@ The boot check can be disabled entirely from the settings.
 ## Why "geiger"?
 
 Short version: because I am a nerd.
+
 Longer version: because in nature atoms decay over time, transforming themselves
 into other elements and generating ionizing particles that can be picked up by a
-[geiger counter][1].  If an outadet Atom version has "decayed", this package
+[geiger counter][1].  If an outated Atom version has "decayed", this package
 should detect it! ;)
 
 
