@@ -17,3 +17,6 @@
 
 ## 2.0.2 - Improve documentation
 * Fix typos as reported online by other users
+
+## 2.0.3 - Fix typos
+* Fix typos (thanks skyrpex!)
