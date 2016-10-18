@@ -2,7 +2,7 @@
   "name": "geiger",
   "main": "./lib/geiger",
   "version": "2.0.3",
-  "description": "A platform-independend notifier for new and beta versions of Atom",
+  "description": "A platform-independent notifier for new and beta versions of Atom",
   "keywords": [
     "beta",
     "new-versions",
