@@ -20,7 +20,7 @@ to your workflow.
 
 ## Under the hood
 
-This package downloads the relase information about Atom via the **GitHub API**
+This package downloads the release information about Atom via the **GitHub API**
 (this is what it makes it platform-independent, BTW).
 
 Based on your configuration settings the package may then notify you of newer
@@ -53,7 +53,7 @@ Short version: because I am a nerd.
 
 Longer version: because in nature atoms decay over time, transforming themselves
 into other elements and generating ionizing particles that can be picked up by a
-[geiger counter][1].  If an outated Atom version has "decayed", this package
+[geiger counter][1].  If an outdated Atom version has "decayed", this package
 should detect it! ;)
 
 
