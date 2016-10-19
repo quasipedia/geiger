@@ -63,7 +63,6 @@ Also contributed to the geiger: @skyrpex
 
 
 ## To do
-- Support links to platform-specific downloads (rpm, deb, exe...)
 - Improve notification look and functionality
 - Write tests
 
