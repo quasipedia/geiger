@@ -63,7 +63,6 @@ Also contributed to the geiger: @skyrpex @XanderXAJ
 
 
 ## To do
-- Improve notification look and functionality
 - Write tests
 
 [1]: https://en.wikipedia.org/wiki/Geiger_counter
