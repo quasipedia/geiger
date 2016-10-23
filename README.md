@@ -59,12 +59,10 @@ should detect it! ;)
 
 ## Contributors
 
-Also contributed to the geiger: @skyrpex
+Also contributed to the geiger: @skyrpex @XanderXAJ
 
 
 ## To do
-- Support links to platform-specific downloads (rpm, deb, exe...)
-- Improve notification look and functionality
 - Write tests
 
 [1]: https://en.wikipedia.org/wiki/Geiger_counter
